@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>robot_tutorial</name>
+  <name>motion</name>
   <version>0.0.0</version>
-  <description>The robot_tutorial package</description>
+  <description>The motion package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
@@ -19,7 +19,7 @@
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
-  <!-- <url type="website">http://wiki.ros.org/robot_tutorial</url> -->
+  <!-- <url type="website">http://wiki.ros.org/motion</url> -->
 
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->
@@ -59,13 +59,9 @@
   <exec_depend>rospy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
 
-  <exec_depend>panda_moveit_config</exec_depend>
-  <exec_depend>franka_ros</exec_depend>
-  <exec_depend>motion</exec_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
-    <metapackage />
     <!-- Other tools can request additional information be placed here -->
 
   </export>
